@@ -12,25 +12,25 @@ Course and more details [here](https://developers.google.com/tech-writing)
 
 * Avoid using indirect (or reported) speech - avoid as much as possible verb **to be**
 
-:thumbsup: `He laid down his bundle and thought of his misfortune. "And just what pleasure have I found, since I came into this world?" he asked.`
+    :thumbsup: `He laid down his bundle and thought of his misfortune. "And just what pleasure have I found, since I came into this world?" he asked.`
 
-:thumbsdown: `He laid down his bundle and thought of his misfortune. He asked himself what pleasure he had found since he came into the world.`
+    :thumbsdown: `He laid down his bundle and thought of his misfortune. He asked himself what pleasure he had found since he came into the world.`
 
 * Avoid weak verbs that transmit uncertainty
 
-Weak | Strong
-:---: | :---:
-The error **occurs** when clicking the Submit button. | Clicking the Submit button **triggers** the error.
-This error message **happens** when... | The system **generates** this error message when...
-We **are** very careful to ensure... | We **carefully** ensure...
+    Weak | Strong
+    :---: | :---:
+    The error **occurs** when clicking the Submit button. | Clicking the Submit button **triggers** the error.
+    This error message **happens** when... | The system **generates** this error message when...
+    We **are** very careful to ensure... | We **carefully** ensure...
 
 * Reduce usage of `there is/there are`
  
-```
-There are some facts you should know -> You should know some facts
+    ```
+    There are some facts you should know -> You should know some facts
 
-There is no creator stack for the main thread -> The main thread does not provide a creator stack
-```
+    There is no creator stack for the main thread -> The main thread does not provide a creator stack
+    ```
 
 * Use short sentences that transmit a single idea
 
@@ -40,22 +40,23 @@ There is no creator stack for the main thread -> The main thread does not provid
 
 * Use `which` for non essential subordinate clauses and `that` for essential
 
-```
-..., which Guido invented.
+    ```
+    ..., which Guido invented.
 
-Fortran is perfect for calculations that don't involve algebra
-```
+    Fortran is perfect for calculations that don't involve algebra
+
+    ```
 
 * Sorted lists should use imperative verbs
 
-1. Instantiate the Froobus class.
-2. Invoke the Froobus.Salmonella() method.
-3. The process stalls.
+  1. Instantiate the Froobus class.
+  2. Invoke the Froobus.Salmonella() method.
+  3. The process stalls.
 
 
 * List items should be parallel (grammar, logical category, capitalization, punctuation)
 
-*Grammar in this context means that all list members should be of the same category. For example: all names, all adjectives or all sentences*
+    *Grammar in this context means that all list members should be of the same category. For example: all names, all adjectives or all sentences*
 
 * The opening sentence of a paragraph should be captivating, intersting, and establish the paragraph's point. 
 
@@ -63,15 +64,19 @@ Fortran is perfect for calculations that don't involve algebra
 
 * Good paragraphs answer three questions:
   
-1. **What** are you trying to tell the reader?
-2. **Why** is it important for the reader to know this?
-3. **How** should the reader use this knowledge?
+  1. **What** are you trying to tell the reader?
+  2. **Why** is it important for the reader to know this?
+  3. **How** should the reader use this knowledge?
 
-Example: 
+  Example: 
 
-```
-<Start of what> The garp() function returns the delta between a dataset's mean and median.<End of what><Start of why> Many people believe unquestioningly that a mean always holds the truth. However, a mean is easily influenced by a few very large or very small data points.<End of why><Start of how> Call garp() to help determine whether a few very large or very small data points are influencing the mean too much. A relatively small garp() value suggests that the mean is more meaningful than when the garp() value is relatively high.<End of how>
-```
+  ```
+  <Start of what> The garp() function returns the delta between a dataset's mean and median.<End of what><Start of why>
+   Many people believe unquestioningly that a mean always holds the truth. However, a mean is easily influenced by a 
+   few very large or very small data points.<End of why><Start of how> Call garp() to help determine whether a few very 
+   large or very small data points are influencing the mean too much. A relatively small garp() value suggests that 
+   the mean is more meaningful than when the garp() value is relatively high.<End of how>
+  ```
 
 * The document you are writing should tell your audience what it doesn't know yet it needs to know.
 
