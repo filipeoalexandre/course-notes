@@ -1,6 +1,6 @@
 # Some notes about linux command line tools
 
-These notes aim to be a TL;DR version of [this](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html) guide
+These notes aim to be a TL;DR version of [this](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html) guide<br/>
 It is by no means an exhaustive list
 
 ## Actual notes
@@ -30,14 +30,17 @@ It is by no means an exhaustive list
 
 ### Redirecting input/output
 
-* `>` symbol sends information somewhere. `cat file1 file2 > file1_and_2.txt` will concatenate the files together into one big file named *file1_and_2.txt*. Note that this will overwrite any existing file
+* `>` symbol sends information somewhere <br/>
+  * `cat file1 file2 > file1_and_2.txt` will concatenate the files together into one big file named *file1_and_2.txt*. Note that this will overwrite any existing file
 
-* As an opposite to `>`, `<` will use information as input to another program. `tr '[A-Z]' '[a-z]' < fileName.txt` would insert the contents of “fileName.txt” into the input of `tr`
+* As an opposite to `>`, `<` will use information as input to another program <br/>
+  * `tr '[A-Z]' '[a-z]' < fileName.txt` would insert the contents of “fileName.txt” into the input of `tr`
 
-* "pipe" (`|`) allows output of one program to be used as input to another. `cat filename.txt | grep hello` would print lines from "filename.txt" that contain "hello"
+* "pipe" (`|`) allows output of one program to be used as input to another <br/>
+  * `cat filename.txt | grep hello` would print lines from "filename.txt" that contain "hello"
 
-* `tee` sends the output of a program to a file and to standard output. Think of it as a T intersection...it goes two ways.
-`ls /home/user | tee my_directories.txt` would list the files on the standard output and print them to "my_directories.txt"
+* `tee` sends the output of a program to a file and to standard output. Think of it as a T intersection...it goes two ways <br/>
+  * `ls /home/user | tee my_directories.txt` would list the files on the standard output and print them to "my_directories.txt"
 
 ### Running multiple commands
 
